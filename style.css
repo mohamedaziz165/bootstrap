@@ -1,0 +1,87 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0072C6;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.header-left h1 {
+    font-size: 24px;
+}
+
+.header-right p {
+    font-size: 18px;
+}
+
+/* Main Banner Styling */
+.main-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.banner-text {
+    max-width: 50%;
+}
+
+.banner-text h2 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.banner-text button {
+    padding: 0.8rem 2rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Brand Logos Styling */
+.brand-logos {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.brand-logos img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Product Section Styling */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #f2f2f2;
+}
+
+.product-card {
+    text-align: center;
+    max-width: 250px;
+}
+
+
